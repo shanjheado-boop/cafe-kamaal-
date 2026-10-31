@@ -1,0 +1,56 @@
+{
+  "name": "Cafe Kamaal Hotel Bill Calculator",
+  "short_name": "Cafe Kamaal",
+  "description": "Monthly hotel meal bill calculation platform for hostellers using single alphabet codes.",
+  "start_url": "index.php",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "lang": "en-US",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["finance", "utilities", "food"],
+  "shortcuts": [
+    {
+      "name": "Dashboard & Bills",
+      "short_name": "Dashboard",
+      "description": "View total mess bill and personal balance",
+      "url": "dashboard.php",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Meal Log",
+      "short_name": "Meals",
+      "description": "Log new meal entry and divider split",
+      "url": "dashboard.php#meals-section",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "My Expenses",
+      "short_name": "Expenses",
+      "description": "Inspect individual meal statement",
+      "url": "my_expenses.php",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline - Cafe Kamaal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0f172a">
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex items-center justify-center p-4 font-sans text-center">
+
+<div class="max-w-md w-full bg-slate-800 border border-slate-700 p-8 rounded-3xl shadow-2xl">
+    <div class="w-16 h-16 rounded-2xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-3xl mx-auto mb-4 border border-amber-500/30">
+        <i class="fa-solid fa-wifi"></i>
+    </div>
+
+    <h1 class="text-xl font-black text-white">You are Offline</h1>
+    <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+        Cafe Kamaal requires an active connection to calculate live hostel meal splits and verify balances.
+    </p>
+
+    <div class="mt-6 pt-4 border-t border-slate-700/60">
+        <button onclick="window.location.reload()" class="w-full py-3 bg-gradient-to-r from-orange-600 to-amber-500 hover:from-orange-500 hover:to-amber-400 text-white font-bold rounded-xl text-xs shadow-lg transition flex items-center justify-center gap-2">
+            <i class="fa-solid fa-arrow-rotate-right"></i> Retry Connection
+        </button>
+    </div>
+
+    <div class="mt-4 text-[11px] text-slate-400">
+        Cafe Kamaal Hotel Mess &bull; Mobile App
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+# Environment files
+.env
+.env.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Web Server & Temporary logs
+*.log
+error_log
+access_log
+
+# PHP Composer (if used in future)
+vendor/
+composer.phar
+composer.lock
+
+# XAMPP / Local development scratch
+/tmp/
+/scratch/
